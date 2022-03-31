@@ -24,7 +24,7 @@ if (hora2 <10){
     hora2 = '0' + hora2
 }
 
-mensagem.innerHTML = `Você nos visitou: ${hora} horas e ${hora2} minutos.`
+mensagem.innerHTML = `Olá, você nos visitou: ${hora} horas e ${hora2} minutos.`
 
 if (hora >4 && hora <12){
     imagem.src="manha.png"
